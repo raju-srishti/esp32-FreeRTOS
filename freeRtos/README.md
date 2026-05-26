@@ -31,11 +31,17 @@ All tasks share data via mutex-protected globals and event groups
 ## Project Structure
 main/
 ├── main.c              # Entry point
+
 ├── shared.h/c          # Shared queues, events, data structures
+
 ├── wifi.c/h            # WiFi connection module
+
 ├── temperature.c/h     # Sensor reading task
+
 ├── alert_manager.c/h   # Threshold monitoring task
+
 ├── system_monitor.c/h  # Heap and stack stats task
+
 └── webserver.c/h       # HTTP server and dashboard
 
 ## Setup
