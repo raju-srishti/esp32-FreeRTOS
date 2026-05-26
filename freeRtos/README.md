@@ -19,7 +19,9 @@ Accessible from any browser on the local network.
 
 ## Architecture
 TempTask (priority 5) → temp_queue → AlertManager (priority 6)
+
 SysMonitor (priority 3) → stats_queue → WebServer
+
 All tasks share data via mutex-protected globals and event groups
 
 ## Tech Stack
