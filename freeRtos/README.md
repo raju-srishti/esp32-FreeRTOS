@@ -3,7 +3,7 @@
 A real-time system monitoring dashboard built on ESP32 using ESP-IDF and FreeRTOS.
 Accessible from any browser on the local network.
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard]("C:\Users\srish\OneDrive\Desktop\freertos_demo\freeRtos\dash_freertos.png")
 
 ## Features
 - Live temperature graph updated every 2 seconds
